@@ -66,7 +66,7 @@ public:
     }
 };
 
-class Tape : public Publication
+class tape : public Publication
 {
     float time;
 
@@ -102,7 +102,7 @@ public:
 int main()
 {
     Book b;
-    Tape t;
+    tape t;
 
     cout << "\nEnter book details: \n";
     b.getBook();
